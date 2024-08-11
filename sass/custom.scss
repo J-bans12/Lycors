@@ -1,0 +1,78 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/*modificar slider*/
+.carousel-item{
+    background-color: #be185d;
+    width: 100vw;
+    height: 55vh;
+    img{
+        width: 100%;
+        height: 100%;
+        background-size:contain;
+        background-position: center;
+    }
+}
+.c-line {
+    display: flex;
+    height: 3.5px;
+    width: 100%;
+    background: linear-gradient(90deg, #4338ca 0%, #ffae00 50%, #be185d 100%);
+}
+
+/*/-------------------------------------------*/
+$grid-breakpoints: (
+  mm: 350px // Añade un breakpoint personalizado
+);
+.responsive-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*fin prueba*/
+.bg-gris{
+    background: rgba($color: rgb(241, 236, 236), $alpha: 1.0);
+}
+
+.bg-footer-color{
+    background: rgba($color: rgb(16, 14, 14), $alpha: 1.0);
+}
+.c-footer{
+    color: white;
+    background: black;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+/*.c-footer{
+    display: block;
+    unicode-bidi: isolate;
+    display: flex;
+    height: 450px;
+    width: 100%;
+    background: rgba($color: rgb(16, 14, 14), $alpha: 1.0);
+}*/
+.ratio-mine{
+    width: 160px;
+    height: 160px;
+}
+@media (min-width: 960px){
+    .c-footer-top{
+        padding: 32px 56px;
+    }
+}
+.c-footer-top{
+    display: flex;
+    align-items: center;
+    background: rgba($color: rgb(16, 14, 14), $alpha: 1.0);
+}
+.c-footer-line {
+    display: flex;
+    height: 26px;
+    width: 100%;
+    background: linear-gradient(90deg, #4338ca 0%, #ffae00 50%, #be185d 100%);
+}
+
+
+/*fin boton next*/

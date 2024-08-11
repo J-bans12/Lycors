@@ -1,0 +1,227 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+.c-section--home{
+    outline: none;
+    z-index: 1;
+    position: relative;
+}
+.c-section{
+    z-index: 1;
+}
+.c-section{ 
+    outline: none;
+    overflow-x: hidden;
+}
+
+.c-section--home .c-categoria{
+    background-color: #fff;
+    padding: 16px 0;
+}
+
+.c-section--home .c-categoria__container{
+    padding: 0 16px 16px;
+}
+
+/*h2 Tus categorias favoritas*/
+.w-bold{
+    font-weight: 700;
+}
+.fs-21{
+    font-size: 21px;
+}
+.black{
+    color: #000;
+}
+/*fin h2 Tus categorias favoritas*/
+.c-font-size{
+    font-size: 25px;
+}
+
+/*boton next*/
+.c-prev, .c-next{
+    border: none;
+    background-color: transparent;
+    color: #334155;
+    font-size: 21px;
+}
+
+/*Lista de categorias*/
+.c-section--home .c-categoria .c-list{
+    display: flex;
+    width: 100%;
+}
+
+.swiper{
+    height: 100% !important;
+    width: 100% !important;
+}
+.swiper-horizontal{
+    touch-action: pan-y;
+}
+.swiper{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    overflow: clip;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+}
+
+.swiper-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    transition-timing-function: var(
+        --swiper-wrapper-transition-timing-function, initial
+    );
+    box-sizing: content-box;
+}
+@media (min-width: 720px) {
+    .c-section--home .c-category .c-list .swiper-slide {
+        width: auto;
+    }
+}
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    display: block;
+}
+
+@media (min-width: 720px) {
+    .c-section--home .c-category .c-list__link {
+        width: 140px;
+    }
+}
+
+.c-section--home .c-category .c-list__link {
+    outline: none;
+    display: flex;
+    text-decoration: none;
+    width: 95px;
+}
+
+.flex-column{
+    flex-direction: column !important;
+}
+
+.align-items-center{
+    align-items: center !important;
+}
+
+@media (min-width: 720px) {
+    .c-section--home .c-category .c-list__figure {
+        height: 130px;
+        width: 130px;
+        padding: 12px 0;
+    }
+}
+.c-section--home .c-category .c-list__figure {
+    height: 90px;
+    width: 90px;
+    padding: 12px 0;
+}
+
+.c-section--home .c-category .c-list__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+.v-lazy-image-loaded {
+    filter: blur(0) grayscale(0);
+}
+.v-lazy-image{
+    filter: blur(20px) grayscale(100%);
+    transition: filter .7s;
+}
+.of--cover{
+    object-fit: cover;
+}
+/*Fin lista de categorias*/
+
+.size-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  @media (max-width: 768px) {
+    .size-img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .size-img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  .fs-smaller {
+    font-size: 1rem; /* Default font size */
+}
+@media (max-width: 576px) {
+    .fs-smaller {
+        font-size: 1rem; /* Smaller font size for small screens */
+    }
+}
+
+
+button, a{
+    outline: none !important;
+}
+button{
+    cursor: pointer;
+}
+
+
+// -----
+#circulo_pisco , #circulo_cerveza , #circulo_tequila , #circulo_vino , #circulo_vodka , #circulo_whisky{
+    cursor: pointer;
+  }
+  
+  .card-custom{
+    margin: 15px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .card-custom:hover{
+    transform: scale(1.05);
+  }
+  .img-thumbnail{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .modal-content img{
+    width: 100%;
+  }
+  .modal-content{
+    position: relative;
+    width: 450px !important;
+    border-radius: 31px;
+    left: 163px;
+  }
+  .card.card-custom {
+    width: 250px;
+    height: 250px;
+}
+.product__red{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    font-weight: bold;
+   }

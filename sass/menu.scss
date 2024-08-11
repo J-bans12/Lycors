@@ -1,0 +1,45 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+/* Define the base styles for the navbar links */
+.navbar{
+  background-color: #ecf0f1;
+}
+.navbar-nav .nav-link {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px; /* Adjust to your preference */
+    text-decoration: none;
+    color: #000; /* Set your preferred text color */
+  }
+  
+  /* Define the before pseudo-element for the underline effect */
+  .navbar-nav .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Adjust the height of the underline */
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, #4338ca 0%, #ffae00 50%, #be185d 100%);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease;
+  }
+  
+  /* Define the hover effect */
+  .navbar-nav .nav-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  .c-size-logo{
+    width: 100px;
+    height: 50px;
+}
+.c-size-rs{
+    width: 32px;
+    height: 32px;
+}
+.c-hl{
+    height: 32px;
+    background-color: #fff;
+    width: 2px;
+}
