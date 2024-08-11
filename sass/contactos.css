@@ -11970,7 +11970,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: aqua;
+  background-color: #000;
   height: 100vh;
 }
 
@@ -11981,7 +11981,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 250px;
+  padding-top: 120px;
 }
 .general .carrousel-fijo {
   margin-top: 80px;
