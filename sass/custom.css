@@ -12038,5 +12038,17 @@ textarea.form-control-lg {
   width: 100%;
   background: linear-gradient(90deg, #4338ca 0%, #ffae00 50%, #be185d 100%);
 }
+.whatsapp-button {
+  position: fixed;      /* Fija la posición del botón en la pantalla */
+  bottom: 20px;         /* Lo posiciona a 20px del borde inferior */
+  right: 20px;          /* Lo posiciona a 20px del borde derecho */
+  z-index: 100;         /* Asegura que el botón esté por encima de otros elementos */
+  width: 60px;          /* Ancho del botón */
+  height: 60px;         /* Alto del botón */
+}
 
+.whatsapp-button img {
+  width: 100%;          /* Hace que la imagen ocupe todo el espacio del contenedor del enlace */
+  height: auto;         /* Ajusta la altura automáticamente en proporción al ancho */
+}
 /*fin boton next*//*# sourceMappingURL=custom.css.map */
