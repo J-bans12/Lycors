@@ -12040,7 +12040,7 @@ textarea.form-control-lg {
 }
 .whatsapp-button {
   position: fixed;      /* Fija la posición del botón en la pantalla */
-  bottom: 210px;         /* Lo posiciona a 20px del borde inferior */
+  bottom: 290px;         /* Lo posiciona a 20px del borde inferior */
   right: 20px;          /* Lo posiciona a 20px del borde derecho */
   z-index: 100;         /* Asegura que el botón esté por encima de otros elementos */
   width: 60px;          /* Ancho del botón */
